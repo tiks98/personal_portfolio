@@ -15,11 +15,13 @@ function Image({ id }) {
 		<section>
 			<div
 				ref={ref}
-				className="div">
-				<img
-					src={`/${id}.jpg`}
-					alt="A London skyscraper"
-				/>
+				className="glassContainer glass">
+				{/* <div className="glassContainer"> */}
+				{/* <img
+							src={`/${id}.jpg`}
+							alt="A London skyscraper"
+						/> */}
+				{/* </div> */}
 			</div>
 			<motion.h2 style={{ y }}>{`#00${id}`}</motion.h2>
 		</section>
