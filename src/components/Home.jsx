@@ -1,12 +1,6 @@
 import "./homeStyles.css";
 import { useRef } from "react";
-import {
-	motion,
-	useScroll,
-	useSpring,
-	useTransform,
-	MotionValue,
-} from "framer-motion";
+import { motion, useScroll, useSpring, useTransform } from "framer-motion";
 
 function useParallax(value, distance) {
 	return useTransform(value, [0, 1], [-distance, distance]);
