@@ -1,8 +1,8 @@
 import "./App.css";
 import Home from "./components/Home";
 import Footer from "./components/Footer";
-import Projects from "./components/Projects";
-import TopNav from "./components/Navbar/TopNav";
+// import Projects from "./components/Projects";
+// import TopNav from "./components/Navbar/TopNav";
 
 function App() {
 	return (
