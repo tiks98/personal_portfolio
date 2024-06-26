@@ -32,19 +32,6 @@ const Projects = () => {
 							display a sample of fonts or generate text for testing. Filler
 							text is dummy text which has no meaning however looks very similar
 							to real text.
-							<br />
-							<br />
-							This is a section of some simple filler text, also known as
-							placeholder text. It shares some characteristics of a real written
-							text but is{" "}
-							<a
-								href="/"
-								className="text-indigo-300 underline transition duration-100 hover:text-indigo-600 active:text-indigo-700">
-								random
-							</a>{" "}
-							or otherwise generated. It may be used to display a sample of
-							fonts or generate text for testing. Filler text is dummy text
-							which has no meaning however looks very similar to real text.
 						</p>
 					</div>
 				</div>

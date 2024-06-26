@@ -23,7 +23,9 @@ function Image({ id }) {
 							alt="A London skyscraper"
 						/> */}
 				{/* </div> */}
-				<Projects />
+				<motion.div style={{ y }}>
+					<Projects />
+				</motion.div>
 			</div>
 			{/* <motion.h2 style={{ y }}>{`#00${id}`}</motion.h2> */}
 		</section>

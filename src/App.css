@@ -1,12 +1,13 @@
 .App {
 	/* text-align: center; */
-	background: rgb(131, 58, 180);
+	/* background: rgb(131, 58, 180);
 	background: linear-gradient(
 		124deg,
 		rgba(131, 58, 180, 1) 0%,
 		rgba(253, 92, 29, 1) 59%,
 		rgba(252, 176, 69, 1) 100%
-	);
+	); */
+	background: black;
 }
 
 .App-logo {
@@ -124,6 +125,12 @@ footer a {
 	}
 	to {
 		transform: rotate(360deg);
+	}
+}
+
+@media screen and (min-width: 1536px) {
+	.container {
+		max-width: 100%;
 	}
 }
 
