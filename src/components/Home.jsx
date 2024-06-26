@@ -1,6 +1,7 @@
 import "./homeStyles.css";
 import { useRef } from "react";
 import { motion, useScroll, useSpring, useTransform } from "framer-motion";
+import Projects from "./Projects";
 
 function useParallax(value, distance) {
 	return useTransform(value, [0, 1], [-distance, distance]);
@@ -15,15 +16,16 @@ function Image({ id }) {
 		<section>
 			<div
 				ref={ref}
-				className="glassContainer glass">
+				className="glass glassContainer">
 				{/* <div className="glassContainer"> */}
 				{/* <img
 							src={`/${id}.jpg`}
 							alt="A London skyscraper"
 						/> */}
 				{/* </div> */}
+				<Projects />
 			</div>
-			<motion.h2 style={{ y }}>{`#00${id}`}</motion.h2>
+			{/* <motion.h2 style={{ y }}>{`#00${id}`}</motion.h2> */}
 		</section>
 	);
 }

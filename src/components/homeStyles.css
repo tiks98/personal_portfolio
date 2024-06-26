@@ -195,7 +195,7 @@ section > .div {
 
 .glassContainer {
 	width: 55vw;
-	height: 40vh;
+	height: auto;
 	margin: 200px auto;
 }
 
